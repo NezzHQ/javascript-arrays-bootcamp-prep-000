@@ -44,8 +44,11 @@ function destructivelyAddElementToEndOfArray(array, element) {
   return array
 }
 
-function destructivelyRemoveElementFromEndOfArray(array) {
+//*function destructivelyRemoveElementFromEndOfArray(array) {
   return array.unshift()
 
-}
+}*//
 
+function removeElementFromEndOfArray(array) {
+  return array.slice(0, array.length - 1)
+}
