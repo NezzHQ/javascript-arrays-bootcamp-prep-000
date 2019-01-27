@@ -22,7 +22,9 @@ function addElementToEndOfArray(array, element){
 } 
 // might have to delete code above
 
-
+function removeElementFromBeginningOfArray(array){
+  
+}
 
 
 
