@@ -12,6 +12,7 @@ function accessElementInArray(array, index){
   return array[index];
 }
 
-function destructiveElementFromBeginningOfArray(array)(
-  )
+function destructiveElementFromBeginningOfArray(array){
+  
+}
 
