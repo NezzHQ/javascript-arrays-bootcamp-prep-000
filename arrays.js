@@ -46,5 +46,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
 
 
 function destructivelyRemoveElementFromEndOfArrayy(array) {
-  return array.slice()
+  array.slice()
+  return array;
+  
 }
