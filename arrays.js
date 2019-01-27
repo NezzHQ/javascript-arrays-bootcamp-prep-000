@@ -18,8 +18,6 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 }
 
 
-// might have to delete code above
-
 function removeElementFromBeginningOfArray(array){
   return array.slice(1)
 }
