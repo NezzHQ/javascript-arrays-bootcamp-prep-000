@@ -51,13 +51,11 @@ function destructivelyRemoveElementFromEndOfArrayy(array) {
   
 }
 
-function addElementToBeginningOfArray(array, element) {
-  var newArray = array.push(element);
-  return newArray
-}
 
 function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop(...array);
   return array
 }
+
+
   
