@@ -17,9 +17,9 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array 
 }
 
-function accessElementInArray(array)
-
-
-function accessElementInArray(array, index){
-  return array[index]
+function addElementToEndOfArray(array, element){
+  return [...array, element]
 }
+
+
+
