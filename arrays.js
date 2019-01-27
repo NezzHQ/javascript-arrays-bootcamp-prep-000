@@ -8,6 +8,6 @@ function destructivelyAddElementToBeginningOfArray (array, element) {
   array.unshift(element);
   return array
 }
-function accessElementaryInArray(array, index) {
+function accessElementaryInArray(array, index){
   return array[index];
 }
