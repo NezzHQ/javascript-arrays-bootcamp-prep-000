@@ -39,14 +39,11 @@ function removeElementFromEndOfArray(array){
   return array.slice(0, array.length - 1)
 }
 
-function destructivelyAddElementToEndOfArray(array, element){
-  array.push(element)
-  return
-}
-
-
 function destructivelyAddElementToEndOfArray(array, element) {
   array.push(element)
   return array
+}
+
+
 
 
