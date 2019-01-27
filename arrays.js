@@ -57,4 +57,7 @@ function addElementToBeginningOfArray(array, element) {
   array.unshift(element);
   return array
 }
+function deremoveElementFromEndOfArray(array) {
+  var newArray = array.slice(0, array.length - 1);
+  return newArray
   
