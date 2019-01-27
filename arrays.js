@@ -51,7 +51,7 @@ function destructivelyRemoveElementFromEndOfArrayy(array) {
   
 }
 
-function addElementToEndOfArray(array, element) {
+function addElementToBeginningOfArray(array, element) {
   var newArray = array.push(element);
   return newArray
 }
