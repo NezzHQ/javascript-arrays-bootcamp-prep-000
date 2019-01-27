@@ -59,7 +59,7 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
-  array.pop(...array);
+  array.unshift(...array);
   return array
 }
   
