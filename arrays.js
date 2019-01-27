@@ -14,3 +14,4 @@ function accessElementInArray(array, index){
 
 function destructiveElementFromBeginningOfArray(array)(
   )
+
